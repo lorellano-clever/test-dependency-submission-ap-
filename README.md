@@ -14,6 +14,7 @@ Instantánea (snapshot) de GitHub Dependency Submission API
 Gráfico de dependencias de GitHub (Dependency Graph)
   ↓
 Alertas de Dependabot
+```
 
 ## Archivos
 
