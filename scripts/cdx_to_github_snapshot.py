@@ -97,7 +97,7 @@ def build_snapshot(sbom: dict, sbom_filename: str, source_location: str, sha: st
         "ref": ref,
         "job": {
             "id": str(run_id),
-            "correlator": f"{workflow}_{job}_{source_location}",
+            "correlator": "external-sbom-dependency-submission",
         },
         "detector": {
             "name": "external-sbom-cyclonedx-converter",
