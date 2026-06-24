@@ -28,7 +28,7 @@ jobs:
           python scripts/cdx_to_github_snapshot.py \
             --input downloaded-sbom.cdx.json \
             --output snapshot.json \
-            --source-location external/jfrog-or-nexus/downloaded-sbom.cdx.json
+            --source-location external/jfrog-or-nexus/dvulnerable-external-dependencies.cdx.json
 
       - name: Show generated snapshot
         run: cat snapshot.json
