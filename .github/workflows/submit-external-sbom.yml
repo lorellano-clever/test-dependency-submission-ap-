@@ -17,9 +17,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # DEMO:
-      # This simulates downloading the SBOM from JFrog/Nexus.
-      # Replace this step with curl/jfrog/nexus CLI when connecting the real source.
+      # Aca simulamos la descarga del SBOM desde JFROG/NEXUS.
       - name: Simulate SBOM download from JFrog or Nexus
         run: |
           cp external-dependencies-simulated.cdx.json downloaded-sbom.cdx.json
